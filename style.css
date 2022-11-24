@@ -68,7 +68,7 @@ section .title::after{
     bottom: -8px;
     left: 50%;
     font-size: 20px;
-    color: crimson;
+    color: #90EE90;
     padding: 0 5px;
     background: #fff;
     transform: translateX(-50%);
@@ -142,7 +142,7 @@ section .title::after{
 }
 
 .menu-btn{
-    color: #e8e4c9;
+    color: white;
     font-size: 23px;
     cursor: pointer;
     display: none;
@@ -151,7 +151,7 @@ section .title::after{
     position: fixed;
     height: 45px;
     width: 42px;
-    background: crimson;
+    background: #90EE90;
     right: 30px;
     bottom: 10px;
     text-align: center;
@@ -194,20 +194,20 @@ section .title::after{
 }
 .home .home-content .text-1{
     font-size: 27px;
-    color:#e8e4c9;
+    color:white;
     text-shadow: 2px 1px black;
 }
 .home .home-content .text-2{
     font-size: 75px;
     font-weight: 600;
     margin-left: -3px;
-    color:#e8e4c9;
+    color:white;
     text-shadow: 2px 1px black;
 }
 .home .home-content .text-3{
     font-size: 40px;
     margin: 5px 0;
-    color:#e8e4c9;
+    color:white;
     text-shadow: 2px 1px black;
 }
 .home .home-content .text-3 span{
@@ -219,11 +219,11 @@ section .title::after{
 .about .title::after{
     content: "Who I Am";
     color:#90EE90;
-    background-color:#e8e4c9;
+    background-color:white;
     text-shadow: 2px 1px black;
 }
 .about {
-  background-color: #e8e4c9;
+  background-color: white;
 }
 .about .about-content .left{
     width: 45%;
@@ -325,11 +325,11 @@ section .title::after{
 .skills .title::after{
     content: "what i know";
     color: #90EE90;
-    background-color:#e8e4c9;
+    background-color:white;
     text-shadow: 2px 1px black;
 }
 .skills {
-  background-color: #e8e4c9;
+  background-color: white;
 }
 .skills .skills-content .column{
     width: calc(50% - 30px);
@@ -664,6 +664,7 @@ footer span a:hover{
 
 .fa:hover {
   opacity: 0.7;
+  color: black;
 }
 
 .fa-facebook {
