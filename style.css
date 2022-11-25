@@ -80,11 +80,11 @@ section .title::after{
     padding: 30px 0;
     font-family: 'Poppins', sans-serif;
     transition: all 0.3s ease;
-    background-color: transparent;
+    background-color: rgba(135, 206, 235,.2);
 }
 .navbar.sticky{
     padding: 15px 0;
-    background-color: black;
+    background-color: rgba(135, 206, 235,.4);
     transition: all 0.3s ease;
 }
 .navbar .max-width{
@@ -112,12 +112,12 @@ section .title::after{
     text-shadow: 2px 1px black;
 }
 .navbar .logo span{
-    color: #fff;
+    color: black;
     transition: all 0.3s ease;
-    text-shadow: 2px 1px black;
+    text-shadow: 2px 1px white;
 }
 .navbar.sticky .logo span{
-    color: #90EE90;
+    color: #87CEEB;
     text-shadow: 2px 1px black;
 }
 .navbar .menu li{
@@ -126,15 +126,15 @@ section .title::after{
 }
 .navbar .menu li a{
     display: block;
-    color: white;
+    color: black;
     font-size: 18px;
     font-weight: 500;
     margin-left: 25px;
     transition: color 0.3s ease;
-    text-shadow: 2px 1px black;
+    text-shadow: 2px 1px white;
 }
 .navbar .menu li a:hover{
-    color: #90EE90;
+    color: #87CEEB;
     
 }
 .navbar.sticky .menu li a:hover{
@@ -142,7 +142,7 @@ section .title::after{
 }
 
 .menu-btn{
-    color: white;
+    color: black;
     font-size: 23px;
     cursor: pointer;
     display: none;
@@ -151,7 +151,7 @@ section .title::after{
     position: fixed;
     height: 45px;
     width: 42px;
-    background: #90EE90;
+    background: #87CEEB;
     right: 30px;
     bottom: 10px;
     text-align: center;
@@ -177,14 +177,16 @@ section .title::after{
 
 .home{
  display: flex;
- background: url("xiaaaoooooo.jpg") no-repeat center;
+ background: url("japaan.gif") no-repeat center;
  height: 100vh;
  color: #fff;
  min-height: 500px;
  background-size: cover;
  background-attachment: fixed;
  font-family: 'Ubuntu', sans-serif;
+ z-index: -1px;
 }
+
 .home .max-width{
   width: 100%;
   display: flex;
@@ -193,32 +195,32 @@ section .title::after{
   margin-right: 0;
 }
 .home .home-content .text-1{
-    font-size: 27px;
-    color:white;
-    text-shadow: 2px 1px black;
+    font-size: 37px;
+    color:black;
+    text-shadow: 1px 3px white;
 }
 .home .home-content .text-2{
-    font-size: 75px;
+    font-size: 85px;
     font-weight: 600;
     margin-left: -3px;
-    color:white;
-    text-shadow: 2px 1px black;
+    color:black;
+    text-shadow: 1px 3px white;
 }
 .home .home-content .text-3{
-    font-size: 40px;
+    font-size: 50px;
     margin: 5px 0;
-    color:white;
-    text-shadow: 2px 1px black;
+    color:black;
+    text-shadow: 1px 3px white;
 }
 .home .home-content .text-3 span{
-    color: #90EE90;
+    color: #87CEEB;
     font-weight: 500;
     text-shadow: 2px 1px black;
 }
 
 .about .title::after{
     content: "Who I Am";
-    color:#90EE90;
+    color:#87CEEB;
     background-color:white;
     text-shadow: 2px 1px black;
 }
@@ -243,7 +245,7 @@ section .title::after{
     margin-bottom: 10px;
 }
 .about .about-content .right .text span{
-    color: #90EE90;
+    color: #87CEEB;
     text-shadow: 2px 1px black;
 }
 .about .about-content .right p{
@@ -251,7 +253,7 @@ section .title::after{
 }
 .about .about-content .right a{
     display: inline-block;
-    background: #90EE90;
+    background: #87CEEB;
     color: black;
     font-size: 20px;
     font-weight: 500;
@@ -279,7 +281,7 @@ section .title::after{
 }
 .services .title::after,
 .teams .title::after{
-    color: #90EE90;
+    color: #87CEEB;
     content: "what i provide";
     background-color: white;
     text-shadow: 2px 1px black;
@@ -294,7 +296,7 @@ section .title::after{
     transition: all 0.3s ease;
 }
 .services .serv-content .card:hover{
-    background: #90EE90;
+    background: #87CEEB;
 }
 .services .serv-content .card .box{
     transition: all 0.3s ease;
@@ -304,7 +306,7 @@ section .title::after{
 }
 .services .serv-content .card i{
     font-size: 50px;
-    color: #90EE90;
+    color: #87CEEB;
     transition: color 0.3s ease;
 }
 .services .serv-content .card:hover i{
@@ -324,7 +326,7 @@ section .title::after{
 
 .skills .title::after{
     content: "what i know";
-    color: #90EE90;
+    color: #87CEEB;
     background-color:white;
     text-shadow: 2px 1px black;
 }
@@ -344,7 +346,7 @@ section .title::after{
 }
 .skills .skills-content .left a{
     display: inline-block;
-    background:#90EE90;
+    background:#87CEEB;
     color: black;
     font-size: 18px;
     font-weight: 500;
@@ -383,7 +385,7 @@ section .title::after{
     height: 100%;
     left: 0;
     top: 0;
-    background: #90EE90;
+    background: #87CEEB;
 }
 .skills-content .right .html::before{
     width: 90%;
@@ -407,7 +409,7 @@ section .title::after{
 .contact .title::after{
     content: "get in touch";
     background-clip: white;
-    color: #90EE90;
+    color: #87CEEB;
     text-shadow: 2px 1px black;
 }
 .contact {
@@ -437,7 +439,7 @@ section .title::after{
 }
 .contact .contact-content .row i{
     font-size: 25px;
-    color: #90EE90;
+    color: #87CEEB;
 }
 .contact .contact-content .info .head{
     font-weight: 500;
@@ -497,7 +499,7 @@ section .title::after{
   border-radius: 6px;
   cursor: pointer;
   flex-wrap: nowrap;
-  background: #90EE90;
+  background: #87CEEB;
   border: 2px solid black;
   transition: all 0.3s ease;
 }
@@ -513,14 +515,14 @@ footer{
     text-align: center;
 }
 footer span a{
-    color: #90EE90;
+    color: #87CEEB;
     text-decoration: none;
 }
 footer span a:hover{
     text-decoration: underline;
 }
 .scroll-up-btn {
-  background-color: #90EE90;
+  background-color: #87CEEB;
 }
 
 @media (max-width: 1104px) {
@@ -549,7 +551,7 @@ footer span a:hover{
         width: 100%;
         left: -100%;
         top: 0;
-        background: #111;
+        background-color: rgba(135, 206, 235,.9);
         text-align: center;
         padding-top: 80px;
         transition: all 0.3s ease;
@@ -646,7 +648,7 @@ footer span a:hover{
         width: 35px;
         font-size: 23px;
         line-height: 38px;
-        background-color: #90EE90;
+        background-color: #87CEEB;
     }
 }
 
@@ -669,20 +671,20 @@ footer span a:hover{
 
 .fa-facebook {
   background: white;
-  color: #90EE90;
+  color: #87CEEB;
 }
 
 .fa-youtube {
   background: white;
-  color: #90EE90;
+  color: #87CEEB;
 }
 
 .fa-instagram {
 background: white;
-color: #90EE90;
+color: #87CEEB;
 
 }
 .fa-github{
 background: white;
-color: #90EE90;
+color: #87CEEB;
 }
